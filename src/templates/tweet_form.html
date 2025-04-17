@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Add Tweet - Twitter Sentiment Analysis{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h2>Add Manual Tweet</h2>
+            </div>
+            <div class="card-body">
+                <form id="tweet-form">
+                    <div class="mb-3">
+                        <label for="tweet_id" class="form-label">Tweet ID (Optional)</label>
+                        <input type="text" class="form-control" id="tweet_id" name="tweet_id">
+                        <div class="form-text">Leave empty to generate automatically</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="tweet_text" class="form-label">Tweet Text</label>
+                        <textarea class="form-control" id="tweet_text" name="tweet_text" rows="4" required></textarea>
+                        <div class="form-text">Enter the tweet content, including $cashtags and #hashtags</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="created_at" class="form-label">Created At</label>
+                        <input type="datetime-local" class="form-control" id="created_at" name="created_at">
+                        <div class="form-text">Leave empty to use current time</div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg">Submit Tweet</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="card mt-4 shadow-sm">
+            <div class="card-header bg-info text-white">
+                <h3>Processing Status</h3>
+            </div>
+            <div class="card-body">
+                <div id="processing-status">
+                    <div class="alert alert-secondary">No tweet submitted yet</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Default the date/time field to current time
+        const now = new Date();
+        now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+        document.getElementById('created_at').value = now.toISOString().slice(0, 16);
+
+        // Setup form submission
+        document.getElementById('tweet-form').addEventListener('submit', submitTweet);
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,18 @@
+# Стартиране на Kafka и Zookeeper
+docker compose -f deployment/docker/docker-compose.kafka.yml up -d
+
+# Проверка дали контейнерите работят
+docker compose -f deployment/docker/docker-compose.kafka.yml ps
+
+uvicorn src.main:app --reload --port 8000
+
+# Спиране и изтриване на Kafka стека, включително волюмите
+docker compose -f deployment/docker/docker-compose.kafka.yml down -v
+
+# Стартиране отново
+docker compose -f deployment/docker/docker-compose.kafka.yml up -d
+
+# Стартиране на консумъра
+python -m src.data_processing.kafka.consumers.tweet_consumer
+
+
