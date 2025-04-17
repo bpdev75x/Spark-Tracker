@@ -27,22 +27,22 @@ Advanced token tracker app,  designed to work across  multiple platforms and blo
 
 ## Development Plan
 
-### Phase 1: Initial Setup and Basic Structure (Completed) ✓
-### Phase 2: Data Infrastructure and Streaming (Completed) ✓
-### Phase 3: Twitter API Integration (Completed) ✓
-### Phase 4: Blockchain Network Management System (Completed) ✓
-### Phase 5: Data Validation & Processing (Completed) ✓
-### Phase 6: Custom sentiment model training with network awareness (ongoing)
-### Phase 7: Token correlation across different blockchains (ongoing)
-### Phase 8: Alerting System & Security Testing (ongoing)
+- Phase 1: Initial Setup and Basic Structure (Completed) ✓
+- Phase 2: Data Infrastructure and Streaming (Completed) ✓
+- Phase 3: Twitter API Integration (Completed) ✓
+- Phase 4: Blockchain Network Management System (Completed) ✓
+- Phase 5: Data Validation & Processing (Completed) ✓
+- Phase 6: Custom sentiment model training with network awareness (ongoing)
+- Phase 7: Token correlation across different blockchains (ongoing)
+- Phase 8: Alerting System & Security Testing (ongoing)
 
 ## Marketing & Token integration
 
-### Phase 1: Basic UI/UX design integration (Completed) ✓
-### Phase 2: Mockups, banners & other marketing supplies (Completed) ✓
-### Phase 3: X account (Completed) ✓
-### Phase 4: Token app integration (awaiting token launch)
-### Phase 5: Community airdrops and contests (awaiting token launch)
-### Phase 6: KOL focused marketing campaign (ongoing)
-### Phase 7: Trendings/boosts/bots/kols analysis to determine how to better spend the marketing budget (ongoing)
-### Phase 8: Token launch platform (pump.fun)
+- Phase 1: Basic UI/UX design integration (Completed) ✓
+- Phase 2: Mockups, banners & other marketing supplies (Completed) ✓
+- Phase 3: X account (Completed) ✓
+- Phase 4: Token app integration (awaiting token launch)
+- Phase 5: Community airdrops and contests (awaiting token launch)
+- Phase 6: KOL focused marketing campaign (ongoing)
+- Phase 7: Trendings/boosts/bots/kols analysis to determine how to better spend the marketing budget (ongoing)
+- Phase 8: Token launch platform (pump.fun)
