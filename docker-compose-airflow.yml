@@ -9,7 +9,7 @@ x-airflow-common: &airflow-common
     - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=true
     - AIRFLOW__WEBSERVER__SECRET_KEY=${AIRFLOW_SECRET_KEY:-supersecretkey}
     - AIRFLOW__CORE__FERNET_KEY=${AIRFLOW_FERNET_KEY:-9xRsMCQzRn-lMEfiU2FwiegkQPDSu7bh5KACp1Cd0Bk=}
-    - IN_DOCKER=true
+    - IN_DOCKER=false
     - PYTHONPATH=/opt/airflow
     # Добавяме променлива за допълнителни пакети, която Airflow автоматично ще инсталира
     - _PIP_ADDITIONAL_REQUIREMENTS=sqlalchemy confluent-kafka psycopg2-binary python-dotenv pydantic pydantic-settings matplotlib pandas tweepy scipy
