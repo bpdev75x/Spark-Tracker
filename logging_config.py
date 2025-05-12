@@ -23,8 +23,8 @@ def setup_logging(level=logging.DEBUG):
 
     # Конфигуриране на root logger
     logging.basicConfig(
-        level=level,
-        format=log_format,
+        level=level, 
+        format=log_format, 
         handlers=[
             # Логване на конзолата
             logging.StreamHandler(sys.stdout),
