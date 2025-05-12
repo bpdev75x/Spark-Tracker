@@ -10,7 +10,7 @@ from src.schemas.twitter import TweetCreate
 from src.data_processing.kafka.producer import send_tweet
 
 # Set up logging
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(_name_)
 
 router = APIRouter(prefix="/twitter", tags=["twitter"])
 
