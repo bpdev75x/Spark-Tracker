@@ -14,7 +14,7 @@ IN_DOCKER = os.environ.get('IN_DOCKER', 'false').lower() == 'true'
 
 # Database Configuration
 if IN_DOCKER:
-    # В Docker среда, използваме host.docker.internal за достъп до хост машината
+    # В Docker host.docker.internal 
     DATABASE_URL = os.getenv('DATABASE_URL', 'postgresql://postgres:password@host.docker.internal:5432/crypto_sentiment')
 else:
     # Локална разработка
