@@ -1,4 +1,4 @@
-# Solana Wallet Tracker Bot
+# Spark Tracker
 
 Wallet tracking and sentiment analysis tool to detect multi-buy and multi-sell events, analyze tweets and track wallets in real time.
 
