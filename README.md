@@ -1,6 +1,6 @@
 # Solana Wallet Tracker Bot
 
-Advanced token tracker app, designed to work across multiple platforms and blockchains
+Wallet tracking and sentiment analysis tool to detect multi-buy and multi-sell events, analyze tweets and track wallets in real time.
 
 
 ## Features
@@ -21,6 +21,7 @@ Advanced token tracker app, designed to work across multiple platforms and block
 - Docker & Kubernetes
 - OAuth2 for authentication 
 - Swagger/OpenAPI for documentation
+- Apache Airflow for processing and handling the data
 
 
 ## Moralis API Integration
