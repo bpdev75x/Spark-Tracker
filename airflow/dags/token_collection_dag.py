@@ -16,7 +16,7 @@ from airflow.operators.python import PythonOperator
 # Конфигуриране на логър
 logger = logging.getLogger(__name__)
 
-airflow_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # /opt/airflow
+airflow_dir = os.path.dirname(os.path.dirname(os.path.abspath(_file_)))  # /opt/airflow
 sys.path.append(airflow_dir)
 
 # Пътища за мок данни
