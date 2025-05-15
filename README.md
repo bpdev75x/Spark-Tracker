@@ -1,3 +1,7 @@
+
+![spark_github_banner](https://github.com/user-attachments/assets/4af391c3-b79a-4a56-9f10-bfc25909a05d)
+
+
 # Spark Tracker
 
 Wallet tracking and sentiment analysis tool to detect multi-buy and multi-sell events, analyze tweets and track wallets in real time.
