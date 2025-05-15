@@ -13,7 +13,7 @@ def run_api():
 
 
 def run_consumer():
-    """Run the tweet consumer."""
+    """Run the tweet consumer"""
     consumer = TweetConsumer()
     consumer.start()
 
