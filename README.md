@@ -10,7 +10,7 @@ Wallet tracking and sentiment analysis tool to detect multi-buy and multi-sell e
 ## Features
 
 - Track multiple Solana wallets
-- Detect multi-buy patterns (3+ wallets buying the same token in 6 hours)
+- Detect multi-buy patterns (3+ wallets buying the same token in 6 hours) 
 - Detect multi-sell patterns (3+ wallets selling the same token in 6 hours)
 - Persistent storage of wallet data, and consistent improvements & bug fixes being released with each new update
 - Track specific tokens across all wallets
