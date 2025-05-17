@@ -11,7 +11,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from starlette.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from src.api.twitter import router as twitter_router
+from src.api.twitter import router as twitter_router 
 from src.data_processing.kafka.setup import ensure_topics_exist
 
 # Set up logging
