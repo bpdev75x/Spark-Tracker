@@ -1,3 +1,3 @@
 """
-Tests for Twitter functionality.
+Tests for Twitter functionality
 """
