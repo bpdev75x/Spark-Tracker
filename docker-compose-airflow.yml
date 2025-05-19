@@ -22,8 +22,8 @@ x-airflow-common: &airflow-common
     - ./src:/opt/airflow/src
     - ./config:/opt/airflow/config
   networks:
-    - airflow_network
-    - docker_kafka-network
+    - airflow_network 
+    - docker_kafka-network 
   extra_hosts:
     - "host.docker.internal:host-gateway"
 
@@ -31,9 +31,9 @@ services:
   postgres-airflow:
     image: postgres:14
     environment:
-      - POSTGRES_USER=airflow
-      - POSTGRES_PASSWORD=airflow
-      - POSTGRES_DB=airflow
+      - POSTGRES_USER=airflow 
+      - POSTGRES_PASSWORD=airflow 
+      - POSTGRES_DB=airflow 
     volumes:
       - postgres-airflow-data:/var/lib/postgresql/data
     ports:
