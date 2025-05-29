@@ -4,7 +4,7 @@ DAG за мониторинг на основните инфраструктур
 """
 from datetime import datetime, timedelta
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.operators.pyon import PythonOperator
 import json
 import os
 import sys
