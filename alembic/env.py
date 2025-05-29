@@ -29,7 +29,7 @@ def run_migrations_offline():
     url = DATABASE_URL
     context.configure(
         url=url,
-        target_metadata=target_metadata,
+        target_metadata=target_metata,
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
     )
